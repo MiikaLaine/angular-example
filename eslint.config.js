@@ -35,7 +35,8 @@ module.exports = tseslint.config(
           style: "kebab-case",
         },
       ],
-    },
+      "@angular-eslint/no-empty-lifecycle-method": "off"
+    }
   },
   {
     files: ["**/*.html"],
